@@ -1,0 +1,210 @@
+#AC_DEBUG                                                  # (Archecker)
+#AC_IXBAR                                                  # (Archecker)
+#AC_LTAPEBLOCK                                             # (Archecker)
+#AC_LTAPEDEV                                               # (Archecker)
+#AC_MSGPATH                                                # (Archecker)
+#AC_SCHEMA                                                 # (Archecker)
+#AC_STORAGE                                                # (Archecker)
+#AC_TAPEBLOCK                                              # (Archecker)
+#AC_TAPEDEV                                                # (Archecker)
+#AC_TIMEOUT                                                # (Archecker)
+#AC_VERBOSE                                                # (Archecker)
+ADMIN_MODE_USERS
+ADMIN_USER_MODE_WITH_DBSA    1
+#ADTERR                                                    # (Audit)
+#ADTSIZE                                                   # (Audit)
+#ADTMODE                                                   # (Audit)
+#ADTSIZE                                                   # (Audit)
+#ADTPATH                                                   # (Audit)
+ALARMPROGRAM
+ALLOW_NEWLINE
+ALRM_ALL_EVENTS
+AUTO_AIOVPS                  1                             # Adds AIO VPs automatically if needed
+AUTO_CKPTS                   1                             # Triggers automatica CKP to avoid transaction blocking
+AUTO_LRU_TUNING              1                             # Adjusts LRU parameters automatically
+AUTO_REPREPARE               1                             # Tries to re-prepare statements when underlying objects are changed
+BAR_ACT_LOG
+BAR_BSALIB_PATH
+BAR_DEBUG                    0
+BAR_DEBUG_LOG
+BAR_HISTORY                  0
+BAR_MAX_BACKUP
+BAR_NB_XPORT_COUNT
+BAR_PERFORMANCE              1
+BAR_PROGRESS_FREQ
+BAR_RETRY
+BAR_XFER_BUF_SIZE
+BATCHEDREAD_TABLE            0
+BLOCKTIMEOUT
+BTSCANNER                    num=1,threshold=5000,rangesize=-1,alice=6,compression=default
+BUFFERPOOL
+CDR_APPLY
+CDR_DBSPACE
+CDR_DSLOCKWAIT
+CDR_ENV
+CDR_EVALTHREADS
+CDR_MAX_DYNAMIC_LOGS
+CDR_NIFCOMPRESS
+CDR_QDATA_SBSPACE
+CDR_QHDR_DBSPACE
+CDR_QUEUEMEM
+CDR_SERIAL
+CDR_SUPPRESS_ATSRISWARN
+CHECKALLDOMAINSFORUSER
+CKPTINTVL
+CLEANERS
+CONSOLE
+CONVERSION_GUARD
+DATASKIP
+DB_LIBRARY_PATH
+DBSERVERALIASES
+DBSERVERNAME
+DBSPACETEMP
+DD_HASHMAX
+DD_HASHSIZE
+DEADLOCK_TIMEOUT
+DEF_TABLE_LOCKMODE           row
+DELAY_APPLY
+DIRECT_IO                    1
+DIRECTIVES
+DISABLE_B162428_XA_FIX
+DRAUTO
+DRDA_COMMBUFFSIZE
+DRIDXAUTO
+DRINTERVAL
+DRLOSTFOUND
+DRTIMEOUT
+DS_HASHSIZE
+DS_MAX_QUERIES
+DS_MAX_SCANS
+DS_NONPDQ_QUERY_MEM
+DS_POOLSIZE
+DS_TOTAL_MEMORY
+DUMPCNT
+DUMPCORE
+DUMPDIR
+DUMPGCORE
+DUMPSHMEM
+DYNAMIC_LOGS
+ENCRYPT_CDR
+ENCRYPT_CIPHERS
+ENCRYPT_HDR
+ENCRYPT_MAC
+ENCRYPT_MACFILE
+ENCRYPT_SMX
+ENCRYPT_SWITCH
+EXPLAIN_STAT                 1
+EXT_DIRECTIVES               0
+EXTSHMADD
+FAILOVER_CALLBACK
+FASTPOLL                     1
+FILLFACTOR
+HA_ALIAS
+HETERO_COMMIT
+IFX_EXTEND_ROLE              1
+IFX_FOLDVIEW                 1
+IMCLOG
+IMCTRANSPORTS
+IMCWORKERDELAY
+IMCWORKERTHREADS
+ISM_DATA_POOL
+ISM_LOG_POOL
+JVMTHREAD
+JVPCLASSPATH
+JVPDEBUG
+JVPHOME
+JVPJAVAHOME
+JVPJAVALIB
+JVPJAVAVM
+JVPLOGFILE
+JVPPROPFILE
+LIMITNUMSESSIONS
+LISTEN_TIMEOUT               10
+LOCKS
+LOGBUFF
+LOGFILES
+LOG_INDEX_BUILDS             0
+LOG_STAGING_DIR
+LOGSIZE
+LTAPEBLK
+LTAPEDEV
+LTAPESIZE
+LTXEHWM
+LTXHWM
+MAX_FILL_DATA_PAGES          0
+MAX_INCOMPLETE_CONNECTIONS   100
+MAX_PDQPRIORITY
+MIRROR
+MIRROROFFSET
+MIRRORPATH
+MSG_DATE                     0                             # Adds date to every online.log message
+MSGPATH
+MULTIPROCESSOR
+NET_IO_TIMEOUT_ALARM         31
+NETTYPE
+OFF_RECVRY_THREADS
+ON_RECVRY_THREADS
+ONDBSPACEDOWN
+ONLIDX_MAXMEM
+OPCACHEMAX
+OPTCOMPIND
+OPT_GOAL
+PC_HASHSIZE
+PC_POOLSIZE
+PHYSBUFF
+PHYSFILE
+QSTATS                        0
+RA_PAGES
+RA_THRESHOLD
+REDIRECTED_WRITES
+RESIDENT
+RESTARTABLE_RESTORE           ON
+RESTORE_POINT_DIR
+ROOTNAME
+ROOTOFFSET
+ROOTPATH
+ROOTSIZE
+RSS_FLOW_CONTROL              -1
+RTO_SERVER_RESTART            0
+SBSPACENAME
+SBSPACETEMP
+SDS_ENABLE
+SDS_PAGING
+SDS_TEMPDBS
+SDS_TIMEOUT
+SECURITY_LOCALCONNECTION      0
+SERVERNUM
+SHMADD
+SHMBASE
+SHMNOACCESS
+SHMTOTAL
+SHMVIRT_ALLOCSEG
+SHMVIRTSIZE
+SINGLE_CPU_VP
+SQLTRACE                      level=low,ntraces=1000,size=2,mode=global
+SSL_KEYSTORE_LABEL
+STACKSIZE
+STAGEBLOB
+STMT_CACHE                    2
+STMT_CACHE_HITS               100
+STMT_CACHE_NOLIMIT            0
+STMT_CACHE_NUMPOOL
+STMT_CACHE_SIZE               5000
+STOP_APPLY
+STORAGE_FULL_ALARM            3600,3
+SYSALARMPROGRAM               $INFORMIXDIR/etc/sysalarmprogram.sh
+SYSSBSPACENAME
+TAPEBLK
+TAPEDEV
+TAPESIZE
+TBLSPACE_STATS                1
+TBLTBLFIRST                   0
+TBLTBLNEXT                    0
+TEMPTAB_NOLOG                 0
+TXTIMEOUT
+USELASTCOMMITTED              NONE    # Which iso levels are automatically promoted to LCR (NONE,DIRTY_READ,COMMITTED_READ)
+USEOSTIME                     0
+UNSECURE_ONSTAT               0
+VP_MEMORY_CACHE_KB            4096
+VPCLASS
+WSTATS                        0
